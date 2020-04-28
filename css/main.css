@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background: rgb(244, 239, 237);
+}
+
+p {
+  line-height: 1.4;
+}
+
+.narrow-container {
+  width: 45% !important;
+  margin: 0 auto !important;
+}
+nav {
+  padding: 2rem 1rem 1rem 1rem;
+
+}
+
+nav .narrow-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  margin-top: 25px;
+  width: 50%;
+}
+
+nav a {
+  color: rgb(242, 94, 61);
+  text-decoration: none;
+  font-size: 1rem;
+  margin-top: 25px;
+  font-weight: bold;
+} 
+
+
+.container .main-heading {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.introduction-image {
+  margin-left: -100px;
+}
+
+.introduction-image img {
+  width: 120%;
+}
+
+.introduction-links {
+  margin-left: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.introduction-links .link {
+  flex: 2;
+}
+
+.getting-started-link {
+  text-decoration: none;
+  color: rgb(242, 94, 61);
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-bottom: 4px solid rgb(242, 94, 61);
+}
+
+.getting-started-link:hover {
+  border-bottom: none;
+}
+.introduction-links .actions {
+  flex: 1;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  width: 100%;
+  margin: 100px 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.girl-div img {
+  width: 100%;
+}
+
+.girl-div-text p:nth-child(1) {
+  font-size: 2rem;
+  color: rgb(0, 132, 255);
+}
+
+.girl-div-text p:nth-child(2) {
+  color: coral;
+  font-size: 1.8rem;
+}
+
+.partners-div {
+  width: 80%;
+  margin: 40px auto;
+  font-size: 1.4rem;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+}
+
+.partners img {
+  height: 90%;
+}
+
+.showcase, .search, .blue-ribbon {
+  margin: 15% 0;
+}
+
+.showcase .image-container img,.work-quick img {
+  width: 100%;
+}
+
+.showcase h1, .search h1, .work-quick h1, .main-section h1 {
+  color: coral;
+  font-size: 3rem;
+}
+
+.showcase p, .search p, work-quick p, .main-section p {
+  line-height: 1.7;
+}
+
+.search-img img {
+  width: 100%;
+}
+
+.bottom-product {
+  margin: 30px 0;
+}
+
+.blue-ribbon {
+  background-color: rgb(28, 122, 144);
+  color: #fff;
+  padding: 3rem 4rem;
+  text-align: center;
+}
+.blue-ribbon p {
+  font-size: 1.2rem;
+}
+
+.blue-ribbon a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.container .main-section {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.product-div {
+  background-color: rgb(239, 229, 225);
+  padding: 2rem 1rem;
+  display: flex;
+  border-radius: 1rem;
+}
+
+footer {
+  margin-top: 15%;
+  text-align: left;
+}
+
+footer .inner-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 768px) {
+  .narrow-container {
+    width: 90% !important;
+  }
+
+  .main-heading {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+
+  .narrow-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .introduction {
+    display: block;
+    width: 100%;
+  }
+
+  .introduction-image {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .introduction-image img {
+    width: 100%;
+  }
+
+  .introduction-links {
+    display: block;
+  }
+  .introduction-links .link a {
+    font-size: 1rem;
+    border: none;
+  }
+  .introduction-links .actions {
+    display: none;
+  }
+  .row {
+    display: block !important;
+  }
+  .girl-div img {
+    width: 80%;
+  }
+  .girl-div-text p {
+    font-size: 1rem !important;
+    margin: 30px 0;
+  }
+  .partners-div .partners {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .partners img {
+    display: block;
+    width: 50%;
+    margin: 100px auto;
+  }
+
+  .showcase {
+    margin: 150px 0 !important;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  } 
+
+  p {
+    margin: 40px 0 !important;
+    font-size: 1rem;
+  }
+  .product-div {
+    display: block;
+  }
+}
